@@ -130,3 +130,14 @@ input {
 .footer-container {
   text-align: center;
 }
+a {
+  text-decoration: none;
+}
+@media (min-width: 600px) {
+  section {
+    padding: 30px;
+    margin-top: -10%;
+    background-color: #fff;
+    border-radius: 5%;
+  }
+}
