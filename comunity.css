@@ -38,6 +38,8 @@ h1 {
 }
 .title {
   padding: 2px 16px;
+  font-size: large;
+  text-align: left;
 }
 
 a {
@@ -46,6 +48,7 @@ a {
 }
 .owner {
   display: flex;
+  padding-bottom: 5%;
   justify-content: space-around;
   justify-content: flex-start;
 }
@@ -68,6 +71,7 @@ ul {
 li {
   list-style-type: none;
   float: left;
+  border-right: 1px #333 solid;
 }
 
 li a {
@@ -81,7 +85,7 @@ nav {
   display: flex;
 
   margin: 10%;
-  width: 100%;
+  width: 75%;
 }
 section {
   width: 100%;
@@ -109,7 +113,7 @@ header {
     flex-wrap: nowrap;
     overflow: auto;
     margin: 10%;
-    width: 100%;
+    width: 75%;
   }
   nav li {
     display: inline-block;
@@ -143,4 +147,9 @@ header {
 }
 .product-wish .fa-heart:before {
   content: '\f004';
+}
+.info {
+  text-align: left;
+  font-size: small;
+  padding-left: 7%;
 }
